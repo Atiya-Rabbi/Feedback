@@ -1,0 +1,90 @@
+
+.PhoneInputInput, .PhoneInputCountry{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  
+  .PhoneInput{
+    width: 100%;
+  }
+  
+  input:focus {
+    outline: none !important;
+    border:1px solid rgb(212, 210, 241) !important;
+    box-shadow: 0 0 10px #826083 !important;
+  }
+  .PhoneInputCountry{
+    width: auto;
+  }
+  
+  .padding30px{
+    padding: 30px !important;
+  }
+  
+  .required-field:after {
+    content:"*";
+    color: red;
+  }
+  
+  .form-check-input:checked {
+    background-color: #993c9a !important;
+    border-color: #938b93 !important;
+  }
+  
+  .btn_purp {
+    --bs-btn-border-color: #55164b !important;
+    --bs-btn-bg: #612b6f !important;
+  }
+  
+  .card-header,thead {
+    background-color: rgb(161 3 244 / 3%) !important;
+  }
+  
+  .alert-danger{
+    --bs-alert-padding-x: 0rem !important;
+    --bs-alert-padding-y: 0rem !important;
+    font-size: small !important;
+    display: none;
+  }
+    
+  .circle {
+    position: relative;
+    background: #8cc63e;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 48%;
+  }
+  
+  .checkmark {
+    position: absolute;
+    transform: rotate(45deg) translate(-50%, -50%);
+    left: 35%;
+    top: 45%;
+    height: 20px;
+    width: 10px;
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
+  }
+  
+  label{
+    float: left;
+  }
+  
+  .col{
+    margin-left: 30px !important;
+  }
+  a{
+    color: #5a0f73 !important;
+  }
